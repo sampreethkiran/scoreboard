@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="inner-container">
+                <h2>HOME</h2>
+                <h3 id="home-point">0</h3>
+                <div>
+                    <button class = "clickers" onclick="addPoint('home',1)">+1</button>
+                    <button class = "clickers" onclick="addPoint('home',2)">+2</button>
+                    <button class = "clickers" onclick="addPoint('home',3)">+3</button>
+                </div>
+            </div>
+            <div class="inner-container">
+                <h2>GUEST</h2>
+                <h3 id="guest-point">0</h3>
+                <div>
+                    <button class = "clickers" onclick="addPoint('guest',1)">+1</button>
+                    <button class = "clickers" onclick="addPoint('guest',2)">+2</button>
+                    <button class = "clickers" onclick="addPoint('guest',3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+                <button class="reset-btn" onclick="clearScore()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
